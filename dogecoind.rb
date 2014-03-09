@@ -3,8 +3,8 @@ require 'formula'
 class Dogecoind < Formula
     head 'https://github.com/dogecoin/dogecoin.git', :using => :git
 
-    url 'https://github.com/dogecoin/dogecoin/archive/1.5.1.tar.gz'
-    sha1 '70efea48f293c6d10281cf2251720fd8f184196d'
+    url 'https://github.com/dogecoin/dogecoin/archive/1.5.2.tar.gz'
+    #sha1 '70efea48f293c6d10281cf2251720fd8f184196d'
 
     depends_on 'miniupnpc'
     depends_on 'openssl'
